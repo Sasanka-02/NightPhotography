@@ -144,3 +144,4 @@ public class LearningPlanController {
         return new ResponseEntity<>(new MessageResponse("Resource deleted successfully"), HttpStatus.OK);
     }
 }
+
