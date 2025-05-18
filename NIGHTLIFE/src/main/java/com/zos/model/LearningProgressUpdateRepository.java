@@ -9,4 +9,3 @@ import java.util.List;
 public interface LearningProgressUpdateRepository extends JpaRepository<LearningProgressUpdate, Long> {
     List<LearningProgressUpdate> findByUser(User user);
 }
-
